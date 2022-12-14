@@ -1,0 +1,238 @@
+//reset click slider css
+.slick-prev {
+    z-index: 100 !important;
+    left: -20px !important;
+    height: 40px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-family: 'Glyphicons Halflings' !important;
+    color: red !important;
+}
+
+.slick-next {
+    z-index: 100 !important;
+    right: -20px !important;
+    height: 40px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.slick-track {
+    display: flex !important;
+    justify-content: flex-start;
+    margin: 0 !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.section-share {
+    &:nth-child(odd) {
+        background-color: #f5f5f5;
+    }
+
+    .section-body {
+        .section-customize {
+            .bg-image {
+                width: 278px;
+                height: 150px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                &.section-medical-Facility {
+                   
+                }
+
+                &.section-outstanding-doctor {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-handbook {}
+            }
+
+            .customize-border:hover {
+                color: #45c3d2;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.section-share {
+    height: 330px;
+
+    .section-container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-size: 22px;
+                font-weight: 600;
+                color: #45c3d2;
+            }
+
+            button {
+                background: #ebebeb;
+                width: 95px;
+                height: 36px;
+                border: none;
+                color: #45c3d2;
+                padding: 10px 0;
+                font-size: 11px;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+
+    }
+}
+
+.section-share {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .text-center{
+        display: -webkit-box;
+        height: 33px;
+        line-height: 1.3;
+        -webkit-line-clamp: 2;  /* số dòng hiển thị */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .section-customize {
+        padding: 5px;
+
+        .customize-border {
+
+            height: 213px;
+            font-weight: 500;
+            color: grey;
+            padding: 10px;
+
+            &.border-outstanding-doctor {
+                border: 1px solid rgb(210, 222, 227);
+                padding: 20px;
+            }
+
+            .position {
+                div {
+                    max-height: 21px;
+                    width: 100%;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    line-height: 1.3;
+                    -webkit-line-clamp: 1;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+
+
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 8px 0px;
+    background-color: #45c3d2;
+    margin-top: 20px;
+}
+
+.section-about {
+    background-color: white !important;
+    border-bottom: 1px solid black;
+    height: 500px !important;
+    width: 80%;
+    margin: auto;
+
+    .setion-about-header {
+        height: 10%;
+        color: #45c3d2;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .section-about-content {
+        height: 90%;
+        padding-bottom: 20px;
+        display: flex;
+        width: 100%;
+
+        .content-left {
+            width: 65%;
+            height: 100%;
+        }
+
+        .contetn-right {
+            width: 40%;
+            height: 100%;
+
+            .media-list {
+                li {
+                    display: inline;
+                    list-style: none;
+                    float: left;
+                    margin: 10px;
+
+                    a {
+                        .media {
+                            width: 162px;
+                            height: 50px;
+                            background-size: 142px 30px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                        }
+
+                        .youtube-media {
+                            background-size: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

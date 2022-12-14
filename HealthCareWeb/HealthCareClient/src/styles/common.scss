@@ -1,0 +1,57 @@
+@import "variables";
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-red {
+    color: $common-red  !important;
+}
+
+.btn-edit {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: blue;
+
+    &:hover {
+        background-color: transparent !important;
+        color: #0415aa;
+    }
+}
+
+.btn-delete {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(255, 51, 0);
+
+    &:hover {
+        background-color: transparent !important;
+        color: rgb(255, 0, 0);
+    }
+}
+
+.loading {
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    z-index: 999999;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    background-color: #e1ebe4;
+    opacity: 0.3;
+    cursor: wait;
+}

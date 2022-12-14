@@ -1,0 +1,75 @@
+      .search {
+          width: 400px;
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          align-items: center;
+          padding: 10px;
+          border-radius: 25px;
+          background: #f7d800;
+          opacity: 0.8;
+          margin-top: 40px;
+
+          i {
+              width: 25px;
+          }
+
+          input {
+              height: 30px;
+              width: 350px;
+              border: none;
+              background: transparent;
+              outline: none;
+          }
+      }
+
+      .more-doctor-container {
+          .content {
+              width: 90%;
+              margin: 40px auto;
+              box-shadow: -4px 2px 4px 2px #0000004d;
+
+              .doctor-detail {
+                  min-height: 120px;
+                  display: flex;
+                  padding: 15px;
+
+                  border: 8px solid white;
+                  background-color: rgb(247, 252, 253);
+
+                  .img {
+                      border-radius: 50%;
+                      width: 130px;
+                      height: 130px;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                      cursor: pointer;
+                  }
+
+                  .name {
+                      margin-left: 30px;
+                      font-size: 1.2rem;
+                      color: #333;
+
+                      .name-doctor {
+                          margin-bottom: 10px;
+                      }
+
+                      .name-specialty {
+                          font-size: 1rem;
+                          color: #555;
+                      }
+                  }
+              }
+
+              .doctor-detail-null {
+                  text-align: center;
+                  padding: 50px 0;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 1.5rem;
+                  color: red;
+              }
+          }
+      }

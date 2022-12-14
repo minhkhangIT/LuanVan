@@ -1,0 +1,29 @@
+.handbook-detail-container {
+    width: 90%;
+    margin: auto;
+
+    .content {
+        padding: 20px;
+        box-shadow: -2px 2px 4px 2px #0000004d;
+
+        img {
+            width: 80%;
+        }
+    }
+}
+
+table {
+    border: 1px solid #333;
+    width: 100%;
+
+    th {
+        border: 1px solid #333;
+        background-color: #f5f5f5;
+        padding: 10px;
+    }
+
+    td {
+        padding: 5px;
+        border: 1px solid #333;
+    }
+}

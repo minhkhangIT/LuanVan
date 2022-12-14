@@ -1,0 +1,210 @@
+{
+  "home-header": {
+    "speciality": "Medical specialty",
+    "search-doctor": "Find a doctor by specialty",
+    "health-facility": "Health facilities",
+    "select-room": "Choose hospital clinic",
+    "doctor": "Doctor",
+    "select-doctor": "Choose a good doctor",
+    "handbook": "Handbook",
+    "detail-handbook": "Handbook details",
+    "support": "Support",
+    "wellcome": "Wellcome"
+  },
+  "banner": {
+    "title1": "MEDICAL PLATFORM",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "placeholder": "Find a medical specialty",
+    "child1": "Specialized examination",
+    "child2": "Health facilities",
+    "child3": "Doctor",
+    "child4": "handbook"
+  },
+  "menu": {
+    "admin": {
+      "manage-user": "Users System",
+      "manage-doctor": "Manage Doctor information",
+      "manage-admin": "Manage admin",
+      "crud": "Manage user",
+      "manage-clinic": "Manage clinics",
+      "clinic": "Clinics",
+      "manage-specialty": "Manage specialties",
+      "specialty": "Specialties",
+      "manage-handbook": "Manage handbooks",
+      "handbook": "Handbooks"
+    },
+    "doctor": {
+      "manage-schedule": "Manage Doctor's schedule",
+      "manage-patient": "Manage Doctor's patient"
+    }
+  },
+  "manage-user": {
+    "title": "Manage User",
+    "add": "Add a new user",
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Rode",
+    "image": "Avatar",
+    "save": "Save user",
+    "edit": "Update user",
+    "fullName": "Full name",
+    "actions": "Actions"
+  },
+  "manage-patient": {
+    "title": "MANAGEMENT OF PATIENTS CHECKOUT",
+    "choose-date": "Choose date ",
+    "choose-doctor": "Choose doctor ",
+    "choose-status": "Choose status ",
+    "name-doctor": " Doctor's name",
+    "name-patient": "Patient's name",
+    "phone-doctor": "Doctor's phone",
+    "gender-patient": "Patient's gender",
+    "phone-patient": "Patient's phone",
+    "email-patient": "Patient's email",
+    "address-patient": "Patient's address",
+    "reason": "Reason for examination",
+    "search": "Search"
+  },
+  "manage-handbook": {
+    "title": "MANAGE HANDBOOK",
+    "content": "Content",
+    "name-vi": "HandBook's name (VI)",
+    "name-en": "Handbook's name (EN)",
+    "image": "Handbook's image",
+    "save": "Save",
+    "cancel": "cancel"
+  },
+  "homepage": {
+    "outstanding-doctor": "Outstanding Doctor of the Week",
+    "more-info": "More infor"
+  },
+  "manage-schedule": {
+    "title": "Manage doctor's examination plan",
+    "choose-doctor": "Choose doctor",
+    "choose-date": "Choose date",
+    "save": "Save",
+    "titleSearch": "List of doctors with scheduled appointments: "
+  },
+  "schedule": {
+    "title": "examination schedule",
+    "empty": "There are no appointments during this time, please choose another time !",
+    "choose": "Choose",
+    "book-free": "Book (Free)"
+  },
+  "patient": {
+    "extra-infor-doctor": {
+      "text-address": "Address of examination",
+      "price": "examination price",
+      "detail": "See details",
+      "payment": "Patients can pay in cash and by swiping a card",
+      "hide-price": "Hide price list"
+    },
+    "booking-modal": {
+      "title": "BOOK A MEDICAL APPOINTMENT",
+      "fullName": "Full Name",
+      "phoneNumber": "Phone number",
+      "address": "Address",
+      "reason": "Reasons for medical examination",
+      "gender": "Gender",
+      "confirm": "Confirm",
+      "birthday": "Birthday",
+      "cancel": "Cancel",
+      "email": "Email",
+      "price": "Price"
+    }
+  },
+  "doctor": {
+    "manage-booking": {
+      "booking-success": "Appointment confirmed successfully !",
+      "booking-failed": "Appointment confirmed or non-existent !",
+      "cancel-success": "Appointment canceled successfully !",
+      "cancel-failed": "Appointment canceled error !",
+      "remedy-title": "DIAGNOSTIC",
+      "medical-history-title": "MEDICAL HISTORY",
+      "close": "Close",
+      "confirm": "Confirm",
+      "patient": "Patient",
+      "birthday": "Birthday",
+      "address": "Address",
+      "date-booking": "Day of the examination",
+      "diagnostic": "Diagnostic",
+      "prescription": "Prescription"
+    }
+  },
+  "admin": {
+    "manage-doctor": {
+      "title": "Create more information doctor",
+      "select-doctor": "Select doctor",
+      "select-specialty": "Select specialty",
+      "select-clinic": "Select clinic",
+      "select-price": "Select price",
+      "select-payment-method": "Select payment method",
+      "select-province": "Select province",
+      "clinic-name": "Clinic's name",
+      "clinic-address": "Clinic's address",
+      "note": "Note",
+      "intro": "Introduction information",
+      "save": "Save",
+      "create": "Create"
+    }
+  },
+  "specialty": {
+    "add": "Add new specialty",
+    "title": "Popular specialties",
+    "manage-title": "Management Specialization",
+    "name-specialty-vi": "Name of specialty (VN)",
+    "name-specialty-en": "Name of specialty (EN)",
+    "image-specialty": "Specialist's photo",
+    "save": "Save",
+    "cancel": "Cancel",
+    "avatar": "Avatar"
+  },
+  "clinic": {
+    "add": "Add new clinic",
+    "outstanding-clinic": "OutStanding clinics",
+    "manage-title": "Management Clinic",
+    "title": "Management Clinic",
+    "name-clinic-vi": "Name of clinic (VN))",
+    "name-clinic-en": "Name of clinic (EN)",
+    "image-clinic": "Clinic's photo",
+    "address-clinic": "Clinic's address",
+    "save": "Save",
+    "cancel": "Cancel",
+    "avatar": "Avatar"
+  },
+  "handbook": {
+    "add": "Add new handbook",
+    "title": "Handbook"
+  },
+  "table": {
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "address": "Address",
+    "gender": "Gender",
+    "position": "Position",
+    "role": "Rode",
+    "image": "Avatar",
+    "save": "Save user",
+    "edit": "Update user",
+    "fullName": "Full name",
+    "actions": "Actions",
+    "time": "Time",
+    "date": "Date",
+    "actions-confirm": "Medical examination",
+    "delete": "Delete",
+    "medical-history": "Medical history"
+  },
+  "btn": {
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}

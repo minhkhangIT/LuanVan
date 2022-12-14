@@ -1,0 +1,27 @@
+#table-manage-handbook {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#table-manage-handbook td,
+#table-manage-handbook th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table-manage-handbook tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+#table-manage-handbook tr:hover {
+    background-color: #ddd;
+}
+
+#table-manage-handbook th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}

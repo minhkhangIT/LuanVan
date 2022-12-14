@@ -1,0 +1,51 @@
+.manage-specialty-container{
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    padding: 0 15px;
+    .manage-title{
+        text-align: center;
+        text-transform: uppercase;  
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        color: #0071ba;
+    }
+    .all-speacialty{
+        .btn-save-specialty{
+            border: none;
+            padding: 8px 15px;
+            background-color: orange;
+            border-radius: 6px;
+            // min-width: 80px;
+            margin-top: 30px;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+
+        .btn-cancel-specialty{
+            margin-left: 30px;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            background-color: rgb(0, 102, 255);
+            border-radius: 6px;
+            margin-top: 30px;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+        .preview-img{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50px;
+            width: 200px;
+        }
+    }
+}
+.list-specialty{
+    margin:40px 0;  
+}
